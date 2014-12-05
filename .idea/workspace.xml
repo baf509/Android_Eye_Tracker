@@ -23,389 +23,389 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b3fc00e-4f98-4e3a-ad13-fcf0db7817a8" name="Default" comment="Initial commit&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvGBTrees.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/JavaCameraView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_highgui.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_legacy.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/KeyPoint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_video.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/InstallCallbackInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.2.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvSVMParams.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/eyes/opencvtest/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_ocl.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/highgui/Highgui.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/video/Video.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/CLAHE.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Core.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Range.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/overview-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfPoint3f.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_info.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/Subdiv2D.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/imgproc/CLAHE.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r4.3.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/BackgroundSubtractorMOG2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_contrib.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/calib3d/StereoSGBM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/engine/OpenCVEngineInterface.aidl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvKNearest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r2.3.3.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/gpu/TargetArchs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfByte.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_objdetect.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_androidcamera.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_video.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/resources/inherit.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/BackgroundSubtractorMOG.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/TermCriteria.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/RotatedRect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfFloat4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvBoost.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_java.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfFloat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvANN_MLP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Size.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_ml.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_core.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_photo.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Scalar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/contrib/FaceRecognizer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_calib3d.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/FpsMeter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/CvType.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.1.1.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/constant-values.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/OpenCVLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/help-doc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_stitching.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/calib3d/Calib3d.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_core.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.3.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_objdetect.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_ts.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvStatModel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/KeyPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r2.3.3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_java.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvSVM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/overview-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libnative_camera_r4.0.3.so" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_stitching.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfDouble.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r3.0.1.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/KalmanFilter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfKeyPoint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.0.3.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfInt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_imgproc.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvBoost.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/imgproc/Subdiv2D.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/EM.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_info.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvParamGrid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvDTreeParams.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfRect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_ts.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvBoost.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Core.MinMaxLocResult.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_videostab.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/JavaCameraView.JavaCameraSizeAccessor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/.settings/org.eclipse.jdt.core.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Size.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/highgui/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_ml.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/Ml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/photo/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/help-doc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/imgproc/Imgproc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfFloat6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_features2d.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/LoaderCallbackInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/photo/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_androidcamera.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/objdetect/Objdetect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewFrame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Rect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/contrib/FaceRecognizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfPoint3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/Moments.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_stitching.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_java.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_legacy.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Point3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/lint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Rect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/CvException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvRTParams.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/TermCriteria.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvGBTrees.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r4.4.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfPoint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/StereoSGBM.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Range.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r4.0.3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/constant-values.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/Subdiv2D.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvDTree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r4.3.0.so" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Algorithm.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_photo.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/Ml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/NativeCameraView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/highgui/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_superres.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_objdetect.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_ml.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/NativeCameraView.OpenCvSizeAccessor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/JavaCameraView.JavaCameraSizeAccessor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/face_detect_surface_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libnative_camera_r4.0.3.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/DMatch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libnative_camera_r4.4.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfRect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_video.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvDTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_videostab.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/FeatureDetector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfFloat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_features2d.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.ListItemAccessor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r2.3.3.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfPoint2f.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.2.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/allclasses-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_superres.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/Features2d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Point.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_photo.a" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_info.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/Calib3d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Rect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eye_tracking_prototype.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/overview-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/Features2d.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewListener.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvStatModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvANN_MLP.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Mat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfPoint3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_stitching.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/RotatedRect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r3.0.1.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvNormalBayesClassifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/FpsMeter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/utils/Converters.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_ts.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/GenericDescriptorMatcher.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Core.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvRTrees.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_java.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r2.2.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.0.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_ts.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/CvType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/overview-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/StereoBM.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/photo/Photo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfPoint3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/imgproc/Imgproc.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfInt4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvSVM.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/Imgproc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_features2d.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_legacy.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.1.1.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/photo/Photo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfPoint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/redstripe509.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_java.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvDTree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/eyes/opencvtest/FdActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/Objdetect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/CameraBridgeViewBase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_flann.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/highgui/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfFloat6.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/Ml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/contrib/Contrib.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_info.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r4.0.3.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvANN_MLP_TrainParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_imgproc.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/utils/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfPoint3f.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvGBTrees.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/Moments.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/gpu/Gpu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_java.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.4.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvGBTreesParams.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/gpu/DeviceInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/raw/lbpcascade_frontalface.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Core.MinMaxLocResult.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/CvException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_flann.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfByte.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/objdetect/HOGDescriptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvRTParams.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_videostab.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_calib3d.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/highgui/VideoCapture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/StereoSGBM.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvERTrees.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfInt4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvANN_MLP_TrainParams.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/Utils.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/DescriptorExtractor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_androidcamera.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/CvException.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/photo/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/highgui/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfDouble.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/allclasses-noframe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvRTrees.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/utils/Converters.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.4.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libnative_camera_r4.3.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/utils/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libnative_camera_r4.2.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Range.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.3.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_objdetect.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/CascadeClassifier.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Mat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/DescriptorMatcher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_contrib.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_ocl.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfFloat4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/video/BackgroundSubtractorMOG2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/photo/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r4.1.1.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_features2d.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/AsyncServiceHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/utils/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r2.2.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/Video.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewListener2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_imgproc.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_highgui.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/LoaderCallbackInterface.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_highgui.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/start.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvBoostParams.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_contrib.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/photo/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/raw/lbpcascade_frontalface.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Size.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_objdetect.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvANN_MLP.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfFloat4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/contrib/Contrib.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/video/BackgroundSubtractorMOG2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/NativeCameraView.OpenCvSizeAccessor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_flann.a" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/raw/haarcascade_lefteye_2splits.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_superres.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/index-all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_core.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_ml.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/face_detect_surface_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvSVMParams.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/highgui/Highgui.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.ListItemAccessor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/CLAHE.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/RotatedRect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_photo.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_video.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/photo/Photo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/utils/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/CvType.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/Ml.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvSVM.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfFloat6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/CascadeClassifier.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/KeyPoint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/highgui/VideoCapture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Core.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/OpenCVLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/KalmanFilter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/highgui/VideoCapture.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/calib3d/StereoBM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.0.3.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/photo/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/highgui/Highgui.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_imgproc.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/HOGDescriptor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/CameraBridgeViewBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfInt4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.4.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/InstallCallbackInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvStatModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.2.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_features2d.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/FpsMeter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/utils/Converters.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/GenericDescriptorMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r4.1.1.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/KeyPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/EM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_highgui.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_ocl.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_ocl.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/imgproc/CLAHE.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_ml.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfPoint3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_info.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfInt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Algorithm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/OpenCVLoader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/DescriptorExtractor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_videostab.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/BaseLoaderCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfByte.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_androidcamera.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/index-all.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfKeyPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_contrib.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/objdetect/HOGDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvKNearest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_superres.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/AsyncServiceHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_calib3d.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/EM.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libnative_camera_r4.1.1.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/Utils.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Range.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfDMatch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Scalar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_core.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/overview-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/CvException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/calib3d/StereoSGBM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/eyes/opencvtest/FdActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvGBTrees.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_info.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvDTreeParams.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Mat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/NativeCameraView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/JavaCameraView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/RotatedRect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/TermCriteria.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/eyes/opencvtest/ApplicationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvRTrees.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfRect.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_calib3d.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libnative_camera_r4.2.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_androidcamera.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfInt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r3.0.1.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_highgui.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/InstallCallbackInterface.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_contrib.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_info.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r2.3.3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.3.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/res/values/attrs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_imgproc.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvBoost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.0.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Point.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_core.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfKeyPoint.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvERTrees.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_highgui.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvRTParams.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_highgui.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfDouble.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvKNearest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/highgui/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfByte.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/CvType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfDouble.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_flann.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewListener.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_ts.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/resources/inherit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_photo.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r3.0.1.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfFloat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/DescriptorExtractor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_ml.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/gpu/DeviceInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Mat.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/video/KalmanFilter.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvBoostParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_ml.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_imgproc.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/NativeCameraView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Point3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r4.4.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvKNearest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfRect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvDTreeParams.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_androidcamera.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvRTParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/res/values/attrs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/Video.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/highgui/Highgui.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_androidcamera.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/serialized-form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/JavaCameraView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Size.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/EM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_videostab.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_contrib.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvSVMParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_ocl.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/BaseLoaderCallback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_stitching.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.0.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/package-list" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/objdetect/CascadeClassifier.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvParamGrid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_videostab.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_superres.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_calib3d.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/StaticHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/imgproc/Moments.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvDTreeParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Rect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfDMatch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfFloat6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvParamGrid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVTest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Algorithm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/objdetect/Objdetect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/InstallCallbackInterface.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/DescriptorExtractor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewFrame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvERTrees.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/highgui/VideoCapture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_photo.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/OpenCVLoader.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvGBTreesParams.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/video/BackgroundSubtractorMOG.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/DescriptorMatcher.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r2.2.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/package-tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_ocl.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfKeyPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Scalar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_video.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Point3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_core.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_flann.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/lint.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/LoaderCallbackInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/TermCriteria.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_legacy.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/contrib/StereoVar.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r4.2.0.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/BaseLoaderCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/video/BackgroundSubtractor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r3.0.1.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfInt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/BackgroundSubtractor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/HOGDescriptor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_highgui.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfDMatch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/opencv.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_features2d.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvSVM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_calib3d.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_ml.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.0.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/utils/Converters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfPoint3f.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfFloat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/video/BackgroundSubtractorMOG.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvANN_MLP_TrainParams.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_ocl.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/FeatureDetector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_calib3d.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libnative_camera_r4.3.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/allclasses-noframe.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvNormalBayesClassifier.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/utils/package-tree.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/FeatureDetector.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/DMatch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfPoint2f.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvGBTreesParams.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_stitching.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/calib3d/Calib3d.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/utils/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libnative_camera_r2.3.3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.0.3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/objdetect/CascadeClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/Features2d.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/Scalar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_videostab.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/imgproc/Imgproc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/overview-tree.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libnative_camera_r4.1.1.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Core.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/opencv.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvANN_MLP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/BackgroundSubtractorMOG2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_core.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_objdetect.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfPoint2f.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/StaticHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/photo/Photo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/BaseLoaderCallback.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/DMatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_legacy.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_superres.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_legacy.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_videostab.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.1.1.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_video.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_photo.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/engine/OpenCVEngineInterface.aidl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/DescriptorMatcher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_java.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_objdetect.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_calib3d.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_features2d.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvERTrees.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/BackgroundSubtractorMOG.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_objdetect.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/imgproc/Subdiv2D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/Features2d.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/video/BackgroundSubtractor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.2.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_flann.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_superres.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfFloat4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_java.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_core.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/JavaCameraView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_imgproc.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfDMatch.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/allclasses-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/serialized-form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/DMatch.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_contrib.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvNormalBayesClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/video/Video.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/gpu/Gpu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_video.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/MatOfPoint3f.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvParamGrid.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvStatModel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/DescriptorMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r2.2.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/video/BackgroundSubtractor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/android/NativeCameraView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvRTrees.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/imgproc/Moments.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/objdetect/Objdetect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/gpu/TargetArchs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r2.3.3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvDTree.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_flann.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/contrib/StereoVar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eye_tracking_prototype.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_ocl.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_stitching.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_ts.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Point3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/ml/CvSVMParams.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/FpsMeter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvANN_MLP_TrainParams.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/features2d/GenericDescriptorMatcher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_superres.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvGBTreesParams.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libnative_camera_r4.4.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libopencv_video.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_androidcamera.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/Calib3d.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/x86/libopencv_features2d.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi-v7a/libnative_camera_r4.4.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.0.3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_contrib.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/package-list" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/start.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/openCVTest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/ml/CvBoostParams.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.3.0.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfPoint2f.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/core/MatOfInt4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r4.1.1.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/core/Point.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_ts.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/src/org/opencv/features2d/GenericDescriptorMatcher.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/highgui/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libnative_camera_r3.0.1.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/android/LoaderCallbackInterface.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/project.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/armeabi/libopencv_legacy.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/opencv/javadoc/org/opencv/calib3d/StereoBM.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/redstripe509.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/jniLibs/mips/libopencv_imgproc.a" />
     </list>
     <ignored path="OpenCVTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -459,8 +459,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -471,8 +471,8 @@
       <file leaf-file-name="FdActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eyes/opencvtest/FdActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7096774" vertical-offset="5490" max-vertical-offset="8970">
-              <caret line="425" column="68" selection-start-line="425" selection-start-column="68" selection-end-line="425" selection-end-column="68" />
+            <state vertical-scroll-proportion="-2.7096775" vertical-offset="5535" max-vertical-offset="8970">
+              <caret line="322" column="28" selection-start-line="322" selection-start-column="28" selection-end-line="322" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -1756,6 +1756,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1917,7 +1918,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2177,7 +2177,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22390318" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2344932" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2344932" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -2220,6 +2220,22 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eyes/opencvtest/FdActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5490" max-vertical-offset="8970">
+          <caret line="425" column="68" selection-start-line="425" selection-start-column="68" selection-end-line="425" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="660">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eyes/opencvtest/FdActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7272" max-vertical-offset="8775">
@@ -2486,8 +2502,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eyes/opencvtest/FdActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7096774" vertical-offset="5490" max-vertical-offset="8970">
-          <caret line="425" column="68" selection-start-line="425" selection-start-column="68" selection-end-line="425" selection-end-column="68" />
+        <state vertical-scroll-proportion="-2.7096775" vertical-offset="5535" max-vertical-offset="8970">
+          <caret line="322" column="28" selection-start-line="322" selection-start-column="28" selection-end-line="322" selection-end-column="28" />
           <folding />
         </state>
       </provider>

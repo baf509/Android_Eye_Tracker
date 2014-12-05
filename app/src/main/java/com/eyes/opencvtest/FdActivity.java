@@ -319,9 +319,9 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
             rightTest.add(new Point(0,0));
         }
 
-        for (int i = 0; i < facesArray.length; i++) {
-//        if (facesArray.length != 0) {
-//            int i = 0;
+//        for (int i = 0; i < facesArray.length; i++) {
+        if (facesArray.length != 0) {
+            int i = 0;
             Core.rectangle(mRgba, facesArray[i].tl(), facesArray[i].br(),
                     FACE_RECT_COLOR, 3);
             xCenter = (facesArray[i].x + facesArray[i].width + facesArray[i].x) / 2;
@@ -420,10 +420,10 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                 rightX += rightTest.get(i).x;
                 rightY += rightTest.get(i).y;
             }
-            if (Math.abs(leftX / TEST_WINDOW - leftMean.x) > 1 * leftStd.x &&
-                    Math.abs(leftY / TEST_WINDOW - leftMean.y) > 1 * leftStd.y &&
-                    Math.abs(rightX / TEST_WINDOW - rightMean.x) > 1 * rightStd.x &&
-                    Math.abs(rightY / TEST_WINDOW - rightMean.y) > 1 * rightStd.y) {
+            if (Math.abs(leftX / TEST_WINDOW - leftMean.x) > 0.5 * leftStd.x &&
+                    Math.abs(leftY / TEST_WINDOW - leftMean.y) > 0.5 * leftStd.y &&
+                    Math.abs(rightX / TEST_WINDOW - rightMean.x) > 0.5 * rightStd.x &&
+                    Math.abs(rightY / TEST_WINDOW - rightMean.y) > 0.5 * rightStd.y) {
 //                new PlayAlert(this).execute(null, null, null);
                 MediaPlayer mp = MediaPlayer.create(this, R.raw.alarm);
                 mp.start();
