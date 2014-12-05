@@ -50,7 +50,7 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
     private static final int TM_CCOEFF_NORMED = 3;
     private static final int TM_CCORR = 4;
     private static final int TM_CCORR_NORMED = 5;
-    private static final int TRAIN_FRAMES = 50;
+    private static final int TRAIN_FRAMES = 10;
     private static final int TEST_WINDOW = 30;
 
 
@@ -313,6 +313,12 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                     new Size());
 
         Rect[] facesArray = faces.toArray();
+
+        if (facesArray.length == 0) {
+            leftTest.add(new Point(0,0));
+            rightTest.add(new Point(0,0));
+        }
+
         for (int i = 0; i < facesArray.length; i++) {
 //        if (facesArray.length != 0) {
 //            int i = 0;
@@ -353,7 +359,11 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                 teplateR = get_template(mJavaDetectorEye, eyearea_right, 24, 1);
                 teplateL = get_template(mJavaDetectorEye, eyearea_left, 24, 0);
                 learn_frames++;
-            } else if (learn_frames == TRAIN_FRAMES) {
+            } else if (learn_frames < 2 * TRAIN_FRAMES) {
+                match_eye(eyearea_right, teplateR, method, 1);
+                match_eye(eyearea_left, teplateL, method, 0);
+                learn_frames++;
+            } else if (learn_frames == 2 * TRAIN_FRAMES) {
                 for (int j = 0; j < leftTrain.size(); j++) {
                     leftMean.x += leftTrain.get(j).x;
                     leftMean.y += leftTrain.get(j).y;
@@ -397,6 +407,29 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                     mZoomWindow.size());
 
 
+        }
+
+        if (leftTest.size() >= TEST_WINDOW && rightTest.size() >= TEST_WINDOW) {
+            double leftX = 0;
+            double leftY = 0;
+            double rightX = 0;
+            double rightY = 0;
+            for (int i = 0; i < TEST_WINDOW; i++) {
+                leftX += leftTest.get(i).x;
+                leftY += leftTest.get(i).y;
+                rightX += rightTest.get(i).x;
+                rightY += rightTest.get(i).y;
+            }
+            if (Math.abs(leftX / TEST_WINDOW - leftMean.x) > 1 * leftStd.x &&
+                    Math.abs(leftY / TEST_WINDOW - leftMean.y) > 1 * leftStd.y &&
+                    Math.abs(rightX / TEST_WINDOW - rightMean.x) > 1 * rightStd.x &&
+                    Math.abs(rightY / TEST_WINDOW - rightMean.y) > 1 * rightStd.y) {
+//                new PlayAlert(this).execute(null, null, null);
+                MediaPlayer mp = MediaPlayer.create(this, R.raw.alarm);
+                mp.start();
+            }
+            leftTest = new ArrayList<Point>();
+            rightTest = new ArrayList<Point>();
         }
 
         return mRgba;
@@ -502,31 +535,17 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
         Core.rectangle(mRgba, matchLoc_tx, matchLoc_ty, new Scalar(255, 255, 0, 255));
         Core.circle(mRgba, new Point(matchLoc.x+mTemplate.cols()/2+area.x, matchLoc.y + mTemplate.rows()/2 + area.y), 2, new Scalar(255, 255, 255, 255), 2);
 
-        if (side == 0 && leftTest.size() < TEST_WINDOW) {
+        if (learn_frames < 2 * TRAIN_FRAMES) {
+            Point eyePoint = new Point(matchLoc.x, matchLoc.y);
+            if (side == 0) {
+                leftTrain.add(eyePoint);
+            } else {
+                rightTrain.add(eyePoint);
+            }
+        } else if (side == 0 && leftTest.size() < TEST_WINDOW) {
             leftTest.add(new Point(matchLoc.x, matchLoc.y));
-        }
-        if (side == 1 && rightTest.size() < TEST_WINDOW) {
+        } else if (side == 1 && rightTest.size() < TEST_WINDOW) {
             rightTest.add(new Point(matchLoc.x, matchLoc.y));
-        }
-        if (leftTest.size() >= TEST_WINDOW && rightTest.size() >= TEST_WINDOW) {
-            double leftX = 0;
-            double leftY = 0;
-            double rightX = 0;
-            double rightY = 0;
-            for (int i = 0; i < TEST_WINDOW; i++) {
-                leftX += leftTest.get(i).x;
-                leftY += leftTest.get(i).y;
-                rightX += rightTest.get(i).x;
-                rightY += rightTest.get(i).y;
-            }
-            if (Math.abs(leftX / TEST_WINDOW - leftMean.x) > 2 * leftStd.x &&
-                Math.abs(leftY / TEST_WINDOW - leftMean.y) > 2 * leftStd.y &&
-                Math.abs(rightX / TEST_WINDOW - rightMean.x) > 2 * rightStd.x &&
-                Math.abs(rightY / TEST_WINDOW - rightMean.y) > 2 * rightStd.y) {
-                new PlayAlert(this).execute(null, null, null);
-            }
-            leftTest = new ArrayList<Point>();
-            rightTest = new ArrayList<Point>();
         }
         Log.d("eye point", Double.toString(matchLoc.x));
     }
@@ -560,11 +579,11 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
             iris.y = mmG.minLoc.y + eye_only_rectangle.y;
 
             Point eyePoint = new Point(iris.x-area.x, iris.y-area.y);
-            if (side == 0) {
-                leftTrain.add(eyePoint);
-            } else {
-                rightTrain.add(eyePoint);
-            }
+//            if (side == 0) {
+//                leftTrain.add(eyePoint);
+//            } else {
+//                rightTrain.add(eyePoint);
+//            }
 
             eye_template = new Rect((int) iris.x - size / 2, (int) iris.y
                     - size / 2, size, size);
@@ -601,8 +620,8 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
 
         @Override
         protected void onPostExecute(Void v) {
-//            mp.release();
-//            mp = null;
+            mp.release();
+            mp = null;
         }
     }
 
