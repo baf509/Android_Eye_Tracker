@@ -201,15 +201,20 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
         //Log.i(TAG, "Instantiated new " + this.getClass());
     }
 
-    public void switchVisibility() {
+    public void makeInvisible() {
         runOnUiThread(new Runnable() {
             @Override
             public void run () {
-                if (alertText.getVisibility() == View.INVISIBLE) {
-                    alertText.setVisibility(View.VISIBLE);
-                } else {
                     alertText.setVisibility(View.INVISIBLE);
-                }
+            }
+        });
+    }
+
+    public void makeVisible() {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run () {
+                    alertText.setVisibility(View.VISIBLE);
             }
         });
     }
@@ -463,9 +468,9 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                     Math.abs(rightX / TEST_WINDOW - rightMean.x) +
                     Math.abs(rightY / TEST_WINDOW - rightMean.y)) > 2 * (leftStd.x + leftStd.y + rightStd.x + rightStd.y)) {
 //                new PlayAlert(this).execute(null, null, null);
-                MediaPlayer mp = MediaPlayer.create(this, R.raw.alarm);
+                MediaPlayer mp = MediaPlayer.create(this, R.raw.meow);
                 mp.start();
-                switchVisibility();
+                makeVisible();
                 badWindow++;
             }
             leftTest = new ArrayList<Point>();
@@ -483,10 +488,18 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run () {
-                        alertText.setText("Stop Driving!You need a REST!");
+                        alertText.setText("Stop Driving!");
                     }
                 });
             }
+
+            try {
+                Thread.sleep(3000);                 //1000 milliseconds is one second.
+            } catch(InterruptedException ex) {
+                Thread.currentThread().interrupt();
+            }
+
+            makeInvisible();
         }
 
         return mRgba;
@@ -665,10 +678,13 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
         rightMean = new Point(0, 0);
         leftStd = new Point(0, 0);
         rightStd = new Point(0, 0);
+
+        makeInvisible();
         runOnUiThread(new Runnable() {
             @Override
             public void run () {
                 energyRate.setText("100 %");
+
             }
         });
         startTime = System.currentTimeMillis();
