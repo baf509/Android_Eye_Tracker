@@ -388,11 +388,11 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                 teplateR = get_template(mJavaDetectorEye, eyearea_right, 24, 1);
                 teplateL = get_template(mJavaDetectorEye, eyearea_left, 24, 0);
                 learn_frames++;
-            } else if (learn_frames < 2 * TRAIN_FRAMES) {
+            } else if (learn_frames < 4 * TRAIN_FRAMES) {
                 match_eye(eyearea_right, teplateR, method, 1);
                 match_eye(eyearea_left, teplateL, method, 0);
                 learn_frames++;
-            } else if (learn_frames == 2 * TRAIN_FRAMES) {
+            } else if (learn_frames == 4 * TRAIN_FRAMES) {
                 for (int j = 0; j < leftTrain.size(); j++) {
                     leftMean.x += leftTrain.get(j).x;
                     leftMean.y += leftTrain.get(j).y;
@@ -458,10 +458,10 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                 rightX += rightTest.get(i).x;
                 rightY += rightTest.get(i).y;
             }
-            if (Math.abs(leftX / TEST_WINDOW - leftMean.x) > 0.5 * leftStd.x &&
-                    Math.abs(leftY / TEST_WINDOW - leftMean.y) > 0.5 * leftStd.y &&
-                    Math.abs(rightX / TEST_WINDOW - rightMean.x) > 0.5 * rightStd.x &&
-                    Math.abs(rightY / TEST_WINDOW - rightMean.y) > 0.5 * rightStd.y) {
+            if ((Math.abs(leftX / TEST_WINDOW - leftMean.x) +
+                    Math.abs(leftY / TEST_WINDOW - leftMean.y) +
+                    Math.abs(rightX / TEST_WINDOW - rightMean.x) +
+                    Math.abs(rightY / TEST_WINDOW - rightMean.y)) > 2 * (leftStd.x + leftStd.y + rightStd.x + rightStd.y)) {
 //                new PlayAlert(this).execute(null, null, null);
                 MediaPlayer mp = MediaPlayer.create(this, R.raw.alarm);
                 mp.start();
@@ -594,7 +594,7 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
         Core.rectangle(mRgba, matchLoc_tx, matchLoc_ty, new Scalar(255, 255, 0, 255));
         Core.circle(mRgba, new Point(matchLoc.x+mTemplate.cols()/2+area.x, matchLoc.y + mTemplate.rows()/2 + area.y), 2, new Scalar(255, 255, 255, 255), 2);
 
-        if (learn_frames < 2 * TRAIN_FRAMES) {
+        if (learn_frames < 4 * TRAIN_FRAMES) {
             Point eyePoint = new Point(matchLoc.x, matchLoc.y);
             if (side == 0) {
                 leftTrain.add(eyePoint);
@@ -657,8 +657,14 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
     public void onRecreateClick(View v)
     {
         learn_frames = 0;
+        leftTrain = new ArrayList<Point>();
+        rightTrain = new ArrayList<Point>();
         leftTest = new ArrayList<Point>();
         rightTest = new ArrayList<Point>();
+        leftMean = new Point(0, 0);
+        rightMean = new Point(0, 0);
+        leftStd = new Point(0, 0);
+        rightStd = new Point(0, 0);
         runOnUiThread(new Runnable() {
             @Override
             public void run () {
