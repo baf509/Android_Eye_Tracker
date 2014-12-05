@@ -463,7 +463,7 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                     Math.abs(rightX / TEST_WINDOW - rightMean.x) > 0.5 * rightStd.x &&
                     Math.abs(rightY / TEST_WINDOW - rightMean.y) > 0.5 * rightStd.y) {
 //                new PlayAlert(this).execute(null, null, null);
-                MediaPlayer mp = MediaPlayer.create(this, R.raw.alarm);
+                MediaPlayer mp = MediaPlayer.create(this, R.raw.meow);
                 mp.start();
                 switchVisibility();
                 badWindow++;
