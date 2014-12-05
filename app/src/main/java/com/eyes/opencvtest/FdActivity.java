@@ -28,7 +28,6 @@ import org.opencv.samples.facedetect.R;
 import android.app.Activity;
 import android.content.Context;
 import android.media.MediaPlayer;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -38,6 +37,7 @@ import android.view.WindowManager;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.SeekBar.OnSeekBarChangeListener;
+import android.widget.Toast;
 
 public class FdActivity extends Activity implements CvCameraViewListener2 {
 
@@ -52,6 +52,7 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
     private static final int TM_CCORR_NORMED = 5;
     private static final int TRAIN_FRAMES = 10;
     private static final int TEST_WINDOW = 30;
+    private static final int LONG_WINDOW = 1;
 
 
     private int learn_frames = 0;
@@ -99,6 +100,17 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
 
     private ArrayList<Point> leftTest;
     private ArrayList<Point> rightTest;
+
+    private int totalWindow = 0;
+    private int badWindow = 0;
+
+    private TextView alertText;
+    private TextView energyRate;
+
+    private Context context = this;
+
+    private long startTime = 0;
+    private long endTime = 0;
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -162,7 +174,6 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                                     + mCascadeFile.getAbsolutePath());
 
 
-
                         cascadeDir.delete();
 
                     } catch (IOException e) {
@@ -190,6 +201,20 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
         //Log.i(TAG, "Instantiated new " + this.getClass());
     }
 
+    public void switchVisibility() {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run () {
+                if (alertText.getVisibility() == View.INVISIBLE) {
+                    alertText.setVisibility(View.VISIBLE);
+                } else {
+                    alertText.setVisibility(View.INVISIBLE);
+                }
+            }
+        });
+    }
+
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -203,7 +228,11 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
         mOpenCvCameraView.setCvCameraViewListener(this);
 
         mMethodSeekbar = (SeekBar) findViewById(R.id.methodSeekBar);
-        mValue = (TextView) findViewById(R.id.method);
+
+        alertText = (TextView) findViewById(R.id.alert);
+        energyRate = (TextView) findViewById(R.id.energyRate);
+
+        startTime = System.currentTimeMillis();
 
         leftTrain = new ArrayList<Point>();
         rightTrain = new ArrayList<Point>();
@@ -391,9 +420,18 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                 rightStd.y = Math.pow((rightStd.y / rightTrain.size()), 0.5);
 
                 learn_frames++;
+
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run () {
+                        Toast.makeText(context, "Calibration Done", Toast.LENGTH_SHORT).show();
+                    }
+                });
+
             } else {
                 // Learning finished, use the new templates for template
                 // matching
+                
                 match_eye(eyearea_right, teplateR, method, 1);
                 match_eye(eyearea_left, teplateL, method, 0);
 
@@ -427,9 +465,28 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
 //                new PlayAlert(this).execute(null, null, null);
                 MediaPlayer mp = MediaPlayer.create(this, R.raw.alarm);
                 mp.start();
+                switchVisibility();
+                badWindow++;
             }
             leftTest = new ArrayList<Point>();
             rightTest = new ArrayList<Point>();
+            totalWindow++;
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run () {
+                    energyRate.setText(Math.round((1-(float)badWindow / (float)totalWindow)*100)+" %");
+                }
+            });
+            endTime = System.currentTimeMillis();
+            if ((endTime - startTime)/(60*1000) > LONG_WINDOW && (float)badWindow / (float)totalWindow >0.8) {
+                //do alert
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run () {
+                        alertText.setText("Stop Driving!You need a REST!");
+                    }
+                });
+            }
         }
 
         return mRgba;
@@ -492,9 +549,11 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
         int result_cols = mROI.cols() - mTemplate.cols() + 1;
         int result_rows = mROI.rows() - mTemplate.rows() + 1;
         // Check for bad template size
-        if (mTemplate.cols() == 0 || mTemplate.rows() == 0) {
+        if (mTemplate.cols() <= 0 || mTemplate.rows() <= 0) {
             return ;
         }
+        if (result_cols <= 0 || result_rows <= 0)
+            return ;
         Mat mResult = new Mat(result_cols, result_rows, CvType.CV_8U);
 
         switch (type) {
@@ -600,31 +659,12 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
         learn_frames = 0;
         leftTest = new ArrayList<Point>();
         rightTest = new ArrayList<Point>();
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run () {
+                energyRate.setText("100 %");
+            }
+        });
+        startTime = System.currentTimeMillis();
     }
-
-    private class PlayAlert extends AsyncTask<Void, Void, Void> {
-        private Context mContext;
-        private MediaPlayer mp = null;
-
-        public PlayAlert(Context context){
-            this.mContext = context;
-            mp = MediaPlayer.create(mContext, R.raw.alarm);
-        }
-
-        @Override
-        protected Void doInBackground(Void... voids) {
-
-            mp.start();
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Void v) {
-            mp.release();
-            mp = null;
-        }
-    }
-
-
-
 }

@@ -3,29 +3,70 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <org.opencv.android.JavaCameraView
-        android:id="@+id/fd_activity_surface_view"
+    <GridLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent" />
-
-    <Button
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:onClick="onRecreateClick"
-        android:text="Recreate" />
+        android:id="@+id/gridLayout">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="104dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/attentText"
+                android:id="@+id/energyText"
+                android:layout_gravity="center"
+                android:gravity="center|bottom" />
+
+            <TextView
+                android:layout_width="301dp"
+                android:layout_height="76dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/attentRate"
+                android:id="@+id/energyRate"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <org.opencv.android.JavaCameraView
+            android:id="@+id/fd_activity_surface_view"
+            android:layout_width="296dp"
+            android:layout_height="203dp"
+            android:layout_row="0"
+            android:layout_column="3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:onClick="onRecreateClick"
+            android:text="Recreate"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:layout_gravity="center_horizontal" />
+    </GridLayout>
 
     <TextView
-        android:id="@+id/method"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/alert"
+        android:id="@+id/alert"
+        android:layout_below="@+id/gridLayout"
         android:layout_above="@+id/seekbars"
         android:layout_alignParentLeft="true"
-        android:layout_margin="5dp"
-        android:text="method"
-        android:textColor="@android:color/white"
-        android:textSize="10sp" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffff0004"
+        android:textSize="70dp"
+        android:visibility="invisible" />
 
     <LinearLayout
         android:id="@+id/seekbars"
