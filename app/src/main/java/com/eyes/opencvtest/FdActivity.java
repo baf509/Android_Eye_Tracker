@@ -314,8 +314,8 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
     public void onCameraViewStopped() {
         mGray.release();
         mRgba.release();
-        mZoomWindow.release();
-        mZoomWindow2.release();
+//        mZoomWindow.release();
+//        mZoomWindow2.release();
     }
 
     public Mat onCameraFrame(CvCameraViewFrame inputFrame) {
@@ -330,8 +330,8 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
             }
         }
 
-        if (mZoomWindow == null || mZoomWindow2 == null)
-            CreateAuxiliaryMats();
+//        if (mZoomWindow == null || mZoomWindow2 == null)
+//            CreateAuxiliaryMats();
 
         MatOfRect faces = new MatOfRect();
 
@@ -437,13 +437,13 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
 
             }
 
-
-            // cut eye areas and put them to zoom windows
-            Imgproc.resize(mRgba.submat(eyearea_left), mZoomWindow2,
-                    mZoomWindow2.size());
-            Imgproc.resize(mRgba.submat(eyearea_right), mZoomWindow,
-                    mZoomWindow.size());
-
+//            if (eyearea_left.area() > 0 && eyearea_right.area() > 0) {
+//                // cut eye areas and put them to zoom windows
+//                Imgproc.resize(mRgba.submat(eyearea_left), mZoomWindow2,
+//                        mZoomWindow2.size());
+//                Imgproc.resize(mRgba.submat(eyearea_right), mZoomWindow,
+//                        mZoomWindow.size());
+//            }
 
         }
 
