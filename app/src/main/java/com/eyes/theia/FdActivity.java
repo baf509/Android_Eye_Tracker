@@ -1,4 +1,4 @@
-package com.eyes.opencvtest;
+package com.eyes.theia;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -23,7 +23,7 @@ import org.opencv.android.CameraBridgeViewBase;
 import org.opencv.android.CameraBridgeViewBase.CvCameraViewListener2;
 import org.opencv.objdetect.CascadeClassifier;
 import org.opencv.objdetect.Objdetect;
-import org.opencv.samples.facedetect.R;
+import org.opencv.theia.R;
 
 import android.app.Activity;
 import android.content.Context;

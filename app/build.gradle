@@ -5,7 +5,7 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "com.eyes.opencvtest"
+        applicationId "com.eyes.theia"
         minSdkVersion 15
         targetSdkVersion 20
         versionCode 1

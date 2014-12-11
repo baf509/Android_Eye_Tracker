@@ -1,4 +1,4 @@
-package com.eyes.opencvtest;
+package com.eyes.theia;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
