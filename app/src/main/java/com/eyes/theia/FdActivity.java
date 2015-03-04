@@ -469,6 +469,7 @@ public class FdActivity extends Activity implements CvCameraViewListener2 {
                     Math.abs(rightY / TEST_WINDOW - rightMean.y)) > 2 * (leftStd.x + leftStd.y + rightStd.x + rightStd.y)) {
 //                new PlayAlert(this).execute(null, null, null);
                 MediaPlayer mp = MediaPlayer.create(this, R.raw.alarm);
+                System.out.println("trigger alarm");
                 mp.start();
                 makeVisible();
                 badWindow++;
